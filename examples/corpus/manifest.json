@@ -1,0 +1,590 @@
+[
+  {
+    "id": "flask",
+    "repo": "pallets/flask",
+    "tag": "3.1.3",
+    "prefixes": [
+      "src/flask/"
+    ],
+    "suffixes": [
+      ".py"
+    ],
+    "license_paths": [
+      "LICENSE.txt"
+    ],
+    "license": "BSD-3-Clause",
+    "commit": "22d924701a6ae2e4cd01e9a15bbaf3946094af65",
+    "url": "https://codeload.github.com/pallets/flask/tar.gz/22d924701a6ae2e4cd01e9a15bbaf3946094af65",
+    "archive_name": "flask-22d924701a6ae2e4cd01e9a15bbaf3946094af65.tar.gz",
+    "archive_bytes": 770816,
+    "archive_sha256": "f745d5ccfc1e5c4ccb7f543c501936c64b5ae922ef6153626b5e26ab799037cb",
+    "retrieved_at": "2026-10-16T10:12:31.040860+00:00",
+    "headers": {
+      "etag": "\"dadf6b694e578df468e23071b16ce8d67df38271c7b5bd807aba9e24e2df629f\"",
+      "last-modified": null,
+      "content-type": "application/x-gzip"
+    },
+    "files": [
+      {
+        "repo_id": "flask",
+        "path": "src/flask/__init__.py",
+        "sha256": "987bc937d4b0b65d510ed8c2a82218c889e22bf499fe5fe1a94ca73b382927da",
+        "bytes": 2701,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/__init__.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/__main__.py",
+        "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+        "bytes": 30,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/__main__.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/app.py",
+        "sha256": "93bb56f0b1d14a57548baccab0528aec0c5afd62f8ceed5edb03cdb6122cbbba",
+        "bytes": 61719,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/app.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/blueprints.py",
+        "sha256": "a79404da5635f0622d6ddaff44a46967c0e8d7b8343ef4062206644940e15f69",
+        "bytes": 4541,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/blueprints.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/cli.py",
+        "sha256": "3df87bdbe07196fa07d101c20ce7351ef5c6ecaab95deb5fdf3ccdcf690d4879",
+        "bytes": 37184,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/cli.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/config.py",
+        "sha256": "3e2a85d033da9ba1d6d051f8087d61a574c17b7d0d4b38cf10ec2bcf56fa92dd",
+        "bytes": 13219,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/config.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/ctx.py",
+        "sha256": "a0c7b44d1b12716d2a75a22a6af56c93c3fdaa212f018e551e7d45020917f279",
+        "bytes": 15521,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/ctx.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/debughelpers.py",
+        "sha256": "3c6203852b56fde7d18e969adf31c8a68fa1b52b49391e35229dce2563d8070a",
+        "bytes": 6080,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/debughelpers.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/globals.py",
+        "sha256": "5dd419992b4198f22cf2df77b63c7aa4eec19b78286c068e3569057141da19ab",
+        "bytes": 1713,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/globals.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/helpers.py",
+        "sha256": "ac96607bbfc9dbcf09d5442fe7e90d7f8a046b0df7d8f3fc3535b44112016d71",
+        "bytes": 23517,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/helpers.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/json/__init__.py",
+        "sha256": "84b351f3df296aaa1e7dd78086b69ae70c89cbe6e6441da4d9d578120572d99f",
+        "bytes": 5602,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/json/__init__.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/json/provider.py",
+        "sha256": "e62984cd8e478d5d87a1456b41b24ba970b330da595df0f46355ea74b5765c10",
+        "bytes": 7672,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/json/provider.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/json/tag.py",
+        "sha256": "0e168dc2e20e85db7647be28382f58e19f19a6bc4562245be5d50fe5bcb220dc",
+        "bytes": 9281,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/json/tag.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/logging.py",
+        "sha256": "f2c33758c4ee6e2d5c05bd9cfe53e45a937427c74c02aae029160b2e2d5d0952",
+        "bytes": 2377,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/logging.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/sansio/app.py",
+        "sha256": "c211944500e43748e6852e021ceec343de861a5652d2411390a9009284639785",
+        "bytes": 38106,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/sansio/app.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/sansio/blueprints.py",
+        "sha256": "4ea7beec4919fad6d67219bc883a027c3f38f1fd3fde72efe8d3637883ef1f03",
+        "bytes": 24637,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/sansio/blueprints.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/sansio/scaffold.py",
+        "sha256": "c120125d8745456266a9c2f45eaf93ecdf8f0d55128851af8cef643d9839f1b9",
+        "bytes": 30371,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/sansio/scaffold.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/sessions.py",
+        "sha256": "7b2c11aa6cad4e66275ff102efcf980462684dce570ff951a61406e4b6cdd5dd",
+        "bytes": 14969,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/sessions.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/signals.py",
+        "sha256": "57b94c530c3b0aa809d93854067d4f89ab59b506a73b2b7b399a6ed86648fb7e",
+        "bytes": 750,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/signals.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/templating.py",
+        "sha256": "bdb224c18031b1211f0f14080f580a46f05041c19612e5980a71f45cadc4a8e2",
+        "bytes": 7678,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/templating.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/testing.py",
+        "sha256": "cf30bb5f184158e3fd1faf7b215ff8486ecb8372f36f93d68b210ff77fca4171",
+        "bytes": 10117,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/testing.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/typing.py",
+        "sha256": "2fe2f9b768ca812d1a3a65618a843fca5a9c8225459c0eb2c4ef912cd86af865",
+        "bytes": 3293,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/typing.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/views.py",
+        "sha256": "c73271ea826a18495386d12085937b65018cc394c3172b91c5491e73046e0280",
+        "bytes": 6962,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/views.py"
+      },
+      {
+        "repo_id": "flask",
+        "path": "src/flask/wrappers.py",
+        "sha256": "8d492fe2655e93622ae21c3177846faab20c6faf41bf43c49438162e6779391a",
+        "bytes": 9406,
+        "language": "python",
+        "url": "https://github.com/pallets/flask/blob/22d924701a6ae2e4cd01e9a15bbaf3946094af65/src/flask/wrappers.py"
+      }
+    ],
+    "selection": "runtime source under explicit prefixes; excludes tests/benchmarks/locales/v3 and non-code; no code executed"
+  },
+  {
+    "id": "zod",
+    "repo": "colinhacks/zod",
+    "tag": "v4.6.7",
+    "prefixes": [
+      "packages/zod/src/v4/core/",
+      "packages/zod/src/v4/classic/",
+      "packages/zod/src/v4/mini/"
+    ],
+    "suffixes": [
+      ".ts"
+    ],
+    "license_paths": [
+      "LICENSE"
+    ],
+    "license": "MIT",
+    "commit": "b500a2ee95134f81d74da7911d7378dd2853d042",
+    "url": "https://codeload.github.com/colinhacks/zod/tar.gz/b500a2ee95134f81d74da7911d7378dd2853d042",
+    "archive_name": "zod-b500a2ee95134f81d74da7911d7378dd2853d042.tar.gz",
+    "archive_bytes": 10434679,
+    "archive_sha256": "ac25c3bcd722faabc689bb86e12f94de72ad36e70d496cafbcff09b120f60be4",
+    "retrieved_at": "2026-10-16T10:12:31.948871+00:00",
+    "headers": {
+      "etag": "\"a1d73dd4f3b71710ff485386875275431eebe456f299db07f97a36a88b5f4a07\"",
+      "last-modified": null,
+      "content-type": "application/x-gzip"
+    },
+    "files": [
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/classic/checks.ts",
+        "sha256": "d99a964f8b97cc8c551ac5486a1b5f4193fccb9c0201260813ca5ef2d84e83a7",
+        "bytes": 790,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/classic/checks.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/classic/coerce.ts",
+        "sha256": "9cf6429965d7d55dc4e50999af50cbad5b57b5f3372bba13038133aba62ba600",
+        "bytes": 1503,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/classic/coerce.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/classic/compat.ts",
+        "sha256": "b392388b3657b8f1fe33a0b0754fe35d2e3f95369c3a25a6517cf746b517b279",
+        "bytes": 2820,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/classic/compat.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/classic/deep-partial.ts",
+        "sha256": "1062f37dcd0689481c69d6af005eb05299818f1383e8c524fdd877d3b12dd6bd",
+        "bytes": 3615,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/classic/deep-partial.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/classic/errors.ts",
+        "sha256": "69e92c3ef064c4acf839b694b7c1ec2679440006fa554372f6ff40e35ba47b40",
+        "bytes": 4129,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/classic/errors.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/classic/external.ts",
+        "sha256": "f6e2d95bdbf70bee98dc63481c1b32d5bf61912bc33ab8db6b18c9ba27518f76",
+        "bytes": 1467,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/classic/external.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/classic/from-json-schema.ts",
+        "sha256": "1b27140e0709c0cc65786808c2f929289c980bc6c3142264860bdffac8b0cdf6",
+        "bytes": 35757,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/classic/from-json-schema.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/classic/in-out.ts",
+        "sha256": "2f483a2fc77ea92e1e049eae34e8415e563ffbdf662b7c97d0d31b4d0a4739f1",
+        "bytes": 2731,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/classic/in-out.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/classic/index.ts",
+        "sha256": "7a336836fdf518f78f89673745c982818d032c4819d40cf226b92c0cde87037f",
+        "bytes": 178,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/classic/index.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/classic/iso.ts",
+        "sha256": "ff9a91c925ea4ad50f216b2969d8ca2cc6c586aaad37e5e112353eb64a055993",
+        "bytes": 753,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/classic/iso.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/classic/parse.ts",
+        "sha256": "e68cc3082aba565ba2b9edb803a094720530f6c3924df841f581da03eccefe19",
+        "bytes": 3565,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/classic/parse.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/classic/schemas.ts",
+        "sha256": "95b134b255f29fe5ac4dda3f64f85eaabd73a6476910abb175e59de1440fc16e",
+        "bytes": 102740,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/classic/schemas.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/api.ts",
+        "sha256": "9ad4da853ced907f2e5764e5a390f087c0bc8633638a993c50699f0827a5bf5d",
+        "bytes": 58228,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/api.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/checks.ts",
+        "sha256": "d813140472a55ab36e845f4eaadbb3deae6d0597f90bef6c3f51366ac8dbfd4c",
+        "bytes": 38987,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/checks.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/compile.ts",
+        "sha256": "6c2a8810813117e864a95dd1e8512af7ce53e6b4b02d1f0dbc1dfa78850afff0",
+        "bytes": 97864,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/compile.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/core.ts",
+        "sha256": "f3ab5ea2f1e49379b25ee99cecf6dc0a2c02aa77fce87400f010a49f2b670463",
+        "bytes": 9731,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/core.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/doc.ts",
+        "sha256": "255fabfab8cec6c8485b201bf12ebf7a2cde2bb341b8862e0872066d561722c4",
+        "bytes": 1535,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/doc.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/errors.ts",
+        "sha256": "ad19a7ec2af7abc5ed11a0ba279a015272adff8d2548ac531fc9216b0a37112a",
+        "bytes": 18857,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/errors.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/index.ts",
+        "sha256": "2a0e452323aa5b75b7d7de4879289e2579b9dd2d6af291c0416ba6806ca2199d",
+        "bytes": 690,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/index.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/json-schema-generator.ts",
+        "sha256": "8404f82a03975ac4ad31072332a46a5f94468db308b7369d6dccd0d11f882c87",
+        "bytes": 4647,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/json-schema-generator.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/json-schema-processors.ts",
+        "sha256": "298cce21323ecf8d60a936df8b67e244ceff3e2cc3f0d3003d3afe8658d5730c",
+        "bytes": 38355,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/json-schema-processors.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/json-schema.ts",
+        "sha256": "633d28210ea2e86270d47a6d14a61792280fe5b7677731f00ea320862338356a",
+        "bytes": 3861,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/json-schema.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/memoizer.ts",
+        "sha256": "8415a081f35e1bf160ed3fe39733e6a886afe90a6a9b32c48395d33e623facf7",
+        "bytes": 12079,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/memoizer.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/parse.ts",
+        "sha256": "855bda0c95d79be1562fb1f48db4eefb7697276675b7debeb389aaba1b61e9e6",
+        "bytes": 12572,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/parse.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/regexes.ts",
+        "sha256": "fd08a3d605812f51ac57e5c5b327682f99aaf741cff30a9363cb4f6afc60cdc9",
+        "bytes": 12661,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/regexes.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/registries.ts",
+        "sha256": "699d7991cefa6282b97537b67e7a701465e50107b02d216b8da271a95672c47f",
+        "bytes": 3373,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/registries.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/schemas.ts",
+        "sha256": "9a495df5c8e614f1435f8f79618e768e9f3e5a2bc76d784b2c060f51c8e0312e",
+        "bytes": 177123,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/schemas.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/standard-schema.ts",
+        "sha256": "7f9ce0873e08c80de2f2a9f6d4968c2c6b2b1541058ca849a8ddd6e66edabaeb",
+        "bytes": 6324,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/standard-schema.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/to-json-schema.ts",
+        "sha256": "31c83b46fb2c25c0a80bde9f8d8c26609f4c0255e253d07613c96f67645eb779",
+        "bytes": 35019,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/to-json-schema.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/util.ts",
+        "sha256": "e0ce7d4abc5e43373c59db83cad29f918edf6965df1bb8e54157a4f04d224863",
+        "bytes": 48135,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/util.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/versions.ts",
+        "sha256": "215c237a872f89d781cb40b9fe81fd321dff498816784db6eefdff88fa9ae943",
+        "bytes": 83,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/versions.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/visit.ts",
+        "sha256": "04108723a4a821de6f420a6adfe8e5dbca08e68bf30e7d9b079fab23d701ad69",
+        "bytes": 6930,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/visit.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/core/zsf.ts",
+        "sha256": "975e61b52c8de9fad0a0086952b9ee8a1abbacfa4489659529c53e80dd78094e",
+        "bytes": 6677,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/core/zsf.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/mini/checks.ts",
+        "sha256": "c8b2b4c7aedd06ad62275bd6cfcfa763dd7be18c5872406285cdf00c3165dadd",
+        "bytes": 765,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/mini/checks.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/mini/coerce.ts",
+        "sha256": "f9c2a48957a89038bdec5fb122045cf887a1b9e44243c07cce318a1a54123de9",
+        "bytes": 1182,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/mini/coerce.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/mini/deep-partial.ts",
+        "sha256": "53fdabe094cba9445262a127c94d73da31bc272ace239a3c1405a0094ba7dde9",
+        "bytes": 3512,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/mini/deep-partial.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/mini/external.ts",
+        "sha256": "d74f4f1edc940635758e2da91e7995bae3697e0c85e4ee40ea13ee6cee3f3cdd",
+        "bytes": 1133,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/mini/external.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/mini/in-out.ts",
+        "sha256": "07a59ae15726dff6e12b845c9b53bb7fa9e4107ed01258e0a5468889def108c2",
+        "bytes": 2144,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/mini/in-out.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/mini/index.ts",
+        "sha256": "455d93e660b61feec18cd4c31e2f394627546ae8ab31f9bacdab6318112ac31c",
+        "bytes": 81,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/mini/index.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/mini/iso.ts",
+        "sha256": "e3718bdd5cca94e376dc3a7b45b16554ba8526a8bea5dbfc7145504cdbfd8b2d",
+        "bytes": 2239,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/mini/iso.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/mini/parse.ts",
+        "sha256": "fa9db38ac2b7ab03f92639aa13c070cf079178ce5f6e8d54f7b838cc944d6773",
+        "bytes": 235,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/mini/parse.ts"
+      },
+      {
+        "repo_id": "zod",
+        "path": "packages/zod/src/v4/mini/schemas.ts",
+        "sha256": "0564e616637aa02917854cb0ee22bbc64172c78a111cb422ba1f577d556432ee",
+        "bytes": 65299,
+        "language": "typescript",
+        "url": "https://github.com/colinhacks/zod/blob/b500a2ee95134f81d74da7911d7378dd2853d042/packages/zod/src/v4/mini/schemas.ts"
+      }
+    ],
+    "selection": "runtime source under explicit prefixes; excludes tests/benchmarks/locales/v3 and non-code; no code executed"
+  }
+]

@@ -1,0 +1,5 @@
+[extend]
+useDefault = true
+[allowlist]
+description = "Local data, dependencies and generated verification artifacts are outside source scan"
+paths = ['''(^|/)(data|\.venv|\.pytest_cache|\.ruff_cache|__pycache__)/''']

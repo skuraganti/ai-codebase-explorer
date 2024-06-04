@@ -1,0 +1,39 @@
+name: portfolio-release-2024-contour
+services:
+  app:
+    build:
+      context: .
+      args:
+        CONTOUR_UID: "${CONTOUR_UID:-501}"
+    image: portfolio-release-2024-contour:local
+    ports:
+      - "127.0.0.1:${CONTOUR_PORT:-8284}:8000"
+    environment:
+      CONTOUR_DB: /state/contour.sqlite
+      CONTOUR_SOURCE: /corpus
+      CONTOUR_BRIDGE: /bridge
+    volumes:
+      - contour-state:/state
+      - ./data/corpus:/corpus:ro
+      - ./data/bridge:/bridge
+    networks: [contour]
+    read_only: true
+    tmpfs: ["/tmp:rw,noexec,nosuid,size=32m"]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 64
+    mem_limit: 512m
+    cpus: 1.0
+    restart: unless-stopped
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"]
+      interval: 10s
+      timeout: 4s
+      retries: 5
+      start_period: 15s
+networks:
+  contour:
+    name: portfolio-release-2024-contour-network
+volumes:
+  contour-state:
+    name: portfolio-release-2024-contour-state

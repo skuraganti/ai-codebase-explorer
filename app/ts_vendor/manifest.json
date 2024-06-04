@@ -1,0 +1,28 @@
+{
+  "name": "TypeScript",
+  "publisher": "Microsoft and contributors",
+  "version": "6.0.3",
+  "license": "Apache-2.0",
+  "url": "https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz",
+  "integrity": "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==",
+  "retrieved_at": "2026-10-16T10:52:07.584480+00:00",
+  "archive_sha256": "33cd0ee1beaa8c9e9d15a9da836c62ddea4c34a42d7c2d349dbc80d94165d22a",
+  "files": [
+    {
+      "file": "typescript.js",
+      "bytes": 9144216,
+      "sha256": "569177652966bd528c319171c7dd22860dbf72bde116cbc4f644f1d02bb12e39"
+    },
+    {
+      "file": "LICENSE.txt",
+      "bytes": 9197,
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47"
+    },
+    {
+      "file": "ThirdPartyNoticeText.txt",
+      "bytes": 37824,
+      "sha256": "1af3c68039c57e539422da82a4faada506ce6d0ea6f90e0b699d02dbcdb7a90c"
+    }
+  ],
+  "purpose": "Parsing only via createSourceFile; no compiler host, module resolution, emit, eval or execution of analyzed code."
+}

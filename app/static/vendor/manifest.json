@@ -1,0 +1,22 @@
+{
+  "name": "Cytoscape.js",
+  "version": "3.34.4",
+  "license": "MIT",
+  "url": "https://registry.npmjs.org/cytoscape/-/cytoscape-3.34.4.tgz",
+  "integrity": "sha512-msY99tMY8iWTg+sIPGfSqDcPNOt4xcj+v/K/7qUFaCUxxlqnMkUYLBjRUzn9W5CU/R2hrmtJa5+UtovrEM2ctg==",
+  "archive_sha256": "0d02363d99d805ce8d91fdecab7b2a8cb91ee280d67f309ce44c161d117b4679",
+  "retrieved_at": "2026-10-16T10:24:23.008264+00:00",
+  "files": [
+    {
+      "file": "cytoscape.min.js",
+      "bytes": 435649,
+      "sha256": "081591ab735b2b6a3b31a3c60f8f3a3e2fee8c92939e0c7820ad1208571b6cd8"
+    },
+    {
+      "file": "CYTOSCAPE-LICENSE.txt",
+      "bytes": 1082,
+      "sha256": "eb319c6e6f233607f71e8e2f450391751883cfc0eeb3ca7ef574c13d1d9c2203"
+    }
+  ],
+  "use": "Graph rendering; original Contour interface and static analysis. No package scripts run."
+}
