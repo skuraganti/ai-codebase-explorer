@@ -1,8 +1,6 @@
 {
   "title": "Contour",
-  "theme_year": 2024,
-  "developed_at": "2026-10-16",
-  "repository": "https://github.com/skuraganti/2024-ai-codebase-explorer",
+  "repository": "https://github.com/skuraganti/ai-codebase-explorer",
   "data_kind": "Pinned original Flask/Zod source, actual Python AST/official TypeScript compiler parse output",
   "files": [
     {

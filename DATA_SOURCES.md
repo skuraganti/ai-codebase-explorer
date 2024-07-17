@@ -1,6 +1,6 @@
 # Data sources — Contour
 
-Actual development and source retrieval: 2026-10-16. The 2024 prefix is a technology theme. All analyzed code is inert data: no upstream script, build, test suite or package installer runs.
+Actual development and source retrieval: 2026-10-16. All analyzed code is inert data: no upstream script, build, test suite or package installer runs.
 
 ## Selection
 
