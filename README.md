@@ -43,3 +43,9 @@ The Pages demo searches saved parser output; it does not execute analyzed code o
 [Ledger](https://skuraganti.github.io/personal-spending-tracker/) · [Fieldglass](https://skuraganti.github.io/live-earth-dashboard/) · [Relay](https://skuraganti.github.io/data-pipeline-monitor/) · [Folio](https://skuraganti.github.io/private-ai-knowledge-engine/) · [Contour](https://skuraganti.github.io/ai-codebase-explorer/) · [TraceLab](https://skuraganti.github.io/ai-agent-evaluation-lab/) · [Faultline](https://skuraganti.github.io/ai-incident-investigator/)
 
 Prerequisites: a POSIX host (macOS or Linux), Docker with Compose, and `uv`. Native scripts use POSIX process/file-lock facilities. Dependency installation needs internet; Relay, Folio and TraceLab also download original-source data during bootstrap. Defaults work without copying `.env.example`. Optional model integration uses a locally configured host bridge; inference may be remote. The supplied bridge requires `zsh`, an existing `claude-omni` command and the approved `cookllm` route; no provider is included or enabled by Pages.
+
+## Implementation history
+
+- Static Python/TypeScript parsing with searchable, source-linked symbols.
+- Dependency views and reverse-reachability change-impact analysis.
+- Bounded cited explanations locally and a browser demonstration over saved, pinned upstream parser output.
