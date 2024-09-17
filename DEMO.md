@@ -1,5 +1,7 @@
 # Demonstration
 
+For a fresh checkout, first run `uv sync --frozen` and `uv run python scripts/bootstrap.py` as described in [README.md](README.md). Then follow the walkthrough below.
+
 1. Run `sh stack.sh up`; open http://127.0.0.1:8284. Flask and Zod source snapshots are fixed; this application does not execute them.
 2. In Flask, search `Flask.dispatch_request` in Symbols. Open its physical source range. Compare Literal source mode for the same qualified name.
 3. Open Module atlas. Select a module or use its accessible edge list; arrows point toward imported dependencies. Open an import statement to verify the actual line.
