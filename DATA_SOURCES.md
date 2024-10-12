@@ -48,7 +48,7 @@ The copyrights/notices/disclaimers must accompany reused source. BSD also forbid
 
 ## Evaluation splits
 
-`evals/heldout.json` was frozen before endpoint measurement and excluded from the Claude implementation worker. Twelve manually selected source tasks: four development, eight held out. Python ranges use independent stdlib AST; TS anchors were read in original files. Same queries and repo scope compare symbol-aware search with literal source-line search. Includes qualified-name tasks and a no-match task; not a random representative benchmark. Four separate frozen model checks include one development explanation, two held-out explanations and one synthetic injection/unknown request. Synthetic prompts are labeled separately from the real repository evidence. No source-specific held-out retuning. Reports include sample sizes, latency methodology, machine/runtime versions and failures; mocks are separate.
+`evals/heldout.json` was frozen before endpoint measurement and excluded from the implementation task context. Twelve manually selected source tasks: four development, eight held out. Python ranges use independent stdlib AST; TS anchors were read in original files. Same queries and repo scope compare symbol-aware search with literal source-line search. Includes qualified-name tasks and a no-match task; not a random representative benchmark. Four separate frozen model checks include one development explanation, two held-out explanations and one synthetic injection/unknown request. Synthetic prompts are labeled separately from the real repository evidence. No source-specific held-out retuning. Reports include sample sizes, latency methodology, machine/runtime versions and failures; mocks are separate.
 
 ## Browser component
 
