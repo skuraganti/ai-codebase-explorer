@@ -11,3 +11,5 @@ For a fresh checkout, first run `uv sync --frozen` and `uv run python scripts/bo
 7. Rescan unchanged pinned sources: revision/evidence should remain. Restart the project's app and verify persisted index/finished ledger entries. Stop with `sh stack.sh stop`; all state remains local.
 
 The stack does not edit code, propose an automatically applied patch, upload a repo, or publish anything. Source licenses/copyrights remain visible in DATA_SOURCES.md and acquired license files.
+
+For a complete source-linked review without model calls, follow the [Flask JSON-provider change-impact case](docs/IMPACT_CASE.md) and [static-analysis boundary examples](docs/STATIC_BOUNDARIES.md). These full-app hop/type controls are separate from Pages’ saved reverse-impact view.

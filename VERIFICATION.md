@@ -44,3 +44,13 @@ sh stack.sh up
 Local URL: http://127.0.0.1:8284. The container limit is 512 MiB for the app, plus Docker and host process overhead. Tested one portfolio stack at a time on an ARM Mac with 8 GiB host RAM and a 2 GiB Docker VM. No GPU. Defaults use independent named volumes and localhost bindings. Stack stop retains state; no unrelated services are managed.
 
 For Pages: `python3 -m http.server 8008 --bind 127.0.0.1 --directory docs`. With optional agent-browser 0.38.1 installed, run `sh scripts/check-pages.sh`; assertions are in `tests/pages-smoke.js`. No browser automation package is shipped to Pages.
+
+## Source-linked impact maintenance
+
+**62 native tests passed**, including nine new source-backed and explicitly synthetic case checks; Ruff passed on Python 3.14.8. The existing FastAPI/Starlette TestClient deprecation warning remains. Global format-check still flags the pre-existing frozen evaluation file `evals/freeze.py`; it was preserved.
+
+The real pinned corpus was independently reindexed: 66 files, 3,122 definitions, 586 import statements (364 resolved), zero parse errors. Flask provider bytes matched the pinned SHA-256 and `DefaultJSONProvider.dumps` physical lines 166–179. The source-backed oracle reproduced two direct consumers and depth-three cohorts of 19 with types and 10 without types. Every returned path was continuous, with `app.py` L44 → `sansio/app.py` L26/27 → provider and no self-consumer. A module import does not establish a call to that particular method.
+
+Docker build/health and independent API checks passed. The browser selected the exact method, compared 19/10 using the real controls and followed the L44 import evidence to its consumer source. Zod’s mixed runtime re-export pair survived type filtering; locale imports remained outside-sample. An unchanged rescan was a no-op; own-app restart retained exact index state, both impact reports and model budget (attempted 0, pending 0). No bridge or model call ran, and analyzed Flask/Zod code was never executed.
+
+Tests keep syntax-error source/diagnostics inspectable, preserve the last good index after checksum failure and reproduce three ambiguous labels for imports aimed at an unparsed module. Those labels remain a documented limitation. Pages remains the separate saved 66-file/257-pair view without hop/type controls. Parser algorithms, original corpus, licenses and historical evaluation were unchanged.

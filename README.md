@@ -13,7 +13,7 @@ Contour is a local, source-only workbench for understanding an unfamiliar Python
 3. **Follow import edges.** In the module atlas, each arrow points from the importer to the module it imports. Select a module to inspect its recorded import statements and physical lines; the local app can filter type-only imports.
 4. **Find potential consumers.** Select a module you plan to change and run change impact. A reverse breadth-first search (1 to 5 hops, default 3) returns one discovered shortest path per reachable module that directly or transitively imports it.
 
-A reverse-impact path is *potential static reachability*. It does not show runtime breakage, call relationships or change semantics. Unresolved, dynamic, external and outside-sample imports stay visible instead of being guessed.
+A reverse-impact path is *potential static reachability*. It does not show runtime breakage, call relationships or change semantics. Recognized unresolved, external and outside-sample import records remain inspectable. TypeScript `import()` calls are labeled dynamic; arbitrary Python runtime loading such as `__import__` is not recorded. Parse-error target labels have additional limits described in [Static boundaries](docs/STATIC_BOUNDARIES.md).
 
 ## How parsing works
 
@@ -75,7 +75,7 @@ uv run ruff check .
 python3 -m http.server 8008 --bind 127.0.0.1 --directory docs
 ```
 
-These commands make no model calls; native tests use simulated model responses. The recorded release suite passed 53 native tests; those tests were not rerun for this documentation edit. The last command previews Pages at http://127.0.0.1:8008; leave it running. In a second terminal, with agent-browser 0.38.1 installed, `sh scripts/check-pages.sh http://127.0.0.1:8008` runs `tests/pages-smoke.js`. Release checks and their limits are in [VERIFICATION.md](VERIFICATION.md).
+These commands make no model calls; native tests use simulated model responses. The original release suite passed 53 native tests; the current maintenance suite passed 62, including nine new source-backed and synthetic boundary checks. The last command previews Pages at http://127.0.0.1:8008; leave it running. In a second terminal, with agent-browser 0.38.1 installed, `sh scripts/check-pages.sh http://127.0.0.1:8008` runs `tests/pages-smoke.js`. Release checks and their limits are in [VERIFICATION.md](VERIFICATION.md).
 
 ## Scope and limitations
 
@@ -84,3 +84,5 @@ Static imports miss runtime conditionals, plugin loading, dynamic dispatch and t
 ## Sources, attribution and license
 
 The analyzed code belongs to Pallets and the Flask contributors (BSD-3-Clause) and to Colin McDonnell and the Zod contributors (MIT). Their notices are kept with the corpus and Pages (`docs/flask-LICENSE.txt`, `docs/zod-LICENSE`), and no endorsement is implied. TypeScript (Apache-2.0) and Cytoscape.js (MIT) are vendored with their licenses. Upstream work is credited in [UPSTREAM.md](UPSTREAM.md), and source versions are in [SOURCE_MANIFEST.json](SOURCE_MANIFEST.json). Third-party licenses remain in force. Original application code and authored documentation have no open-source license grant; see [LICENSING.md](LICENSING.md).
+
+Follow the [Flask JSON-provider impact case](docs/IMPACT_CASE.md) to compare 19 type-inclusive versus 10 type-excluded potential consumers and inspect each pinned import statement. The [boundary examples](docs/STATIC_BOUNDARIES.md) distinguish incomplete static evidence from runtime behavior.
