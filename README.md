@@ -2,7 +2,7 @@
 
 **[Open the GitHub Pages browser demo](https://skuraganti.github.io/ai-codebase-explorer/)** · [Architecture](ARCHITECTURE.md) · [Data sources](DATA_SOURCES.md) · [Verification](VERIFICATION.md) · [Public roadmap](https://github.com/users/skuraganti/projects/5)
 
-Contour is a local, source-only workbench for understanding an unfamiliar Python or TypeScript codebase before changing it. It parses pinned source into searchable definitions and a module import graph, and definition and citation records retain exact physical-line ranges. Analyzed code is never executed, built or installed.
+Contour helps you inspect an unfamiliar Python or TypeScript codebase before you change it. This local, source-only workbench parses pinned source into searchable definitions. A module import graph shows how files refer to each other, and definition and citation records retain exact physical-line ranges. Analyzed code is never executed, built or installed.
 
 ![Contour Pages demo showing language, symbol and file controls above a saved static import graph of pinned Flask and Zod files.](assets/contour-demo.png)
 
@@ -11,7 +11,7 @@ Contour is a local, source-only workbench for understanding an unfamiliar Python
 1. **Find a definition.** In Flask, search `Flask.dispatch_request`. Compare symbol-aware search with literal source-line search for the same name.
 2. **Open the exact lines.** The result opens the definition's inclusive, 1-based physical line range in the pinned original file.
 3. **Follow import edges.** In the module atlas, each arrow points from the importer to the module it imports. Select a module to inspect its recorded import statements and physical lines; the local app can filter type-only imports.
-4. **Find potential consumers.** Select a module you plan to change and run change impact. A reverse breadth-first search (1 to 5 hops, default 3) returns one discovered shortest path per reachable module that directly or transitively imports it.
+4. **Find potential consumers.** Select a module you plan to change and run change impact. A reverse breadth-first search follows import links back through their consumers (1 to 5 hops, default 3). It returns one discovered shortest path for each reachable module that directly or transitively imports the selected module.
 
 A reverse-impact path is *potential static reachability*. It does not show runtime breakage, call relationships or change semantics. Recognized unresolved, external and outside-sample import records remain inspectable. TypeScript `import()` calls are labeled dynamic; arbitrary Python runtime loading such as `__import__` is not recorded. Parse-error target labels have additional limits described in [Static boundaries](docs/STATIC_BOUNDARIES.md).
 
